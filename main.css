@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+h2 {
+  justify-content: center;
+}
+
+.image {
+  align-content: center;
+}
+
+.card-description {
+  text-align: center;
+}
+
+.product-availability {
+  flex-wrap: flex;
+  background-color: darkgrey;
+  color: yellow;
+  display: block;
+}
+
+.card {
+  border: 1px solid lightblue!important
+}
