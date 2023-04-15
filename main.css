@@ -25,3 +25,32 @@ h2 {
 .card {
   border: 1px solid lightblue!important
 }
+
+/* Challenge: Font */
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* .camaro-card-img-top {
+  width: 25%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.sold-out {
+  width: 25%;
+  position: relative;
+  top: 20px;
+  left: 40px
+} */
+
+/* sold-out {
+  display: flex;
+  flex-direction: column;
+} */
+
+card {
+  display: flex;
+  flex-wrap: wrap;
+}
