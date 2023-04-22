@@ -9,6 +9,8 @@ h2 {
 
 .image {
   align-content: center;
+  max-width: 100%;
+  max-height: auto;
 }
 
 .card-description {
@@ -31,26 +33,38 @@ p {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* .camaro-card-img-top {
-  width: 25%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.sold-out {
+/* .sold-out {
   width: 25%;
   position: relative;
   top: 20px;
   left: 40px
-} */
+} */ */
 
 /* sold-out {
   display: flex;
   flex-direction: column;
 } */
 
-card {
-  display: flex;
-  flex-wrap: wrap;
+/* .overlay {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  max-width: fit-content;
+} */
+
+#overlay-img-top {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#sold-out {
+  position: absolute;
+  top: 0px;
+  left: 10%;
+  opacity: 80%;
+}
+
+.body-size {
+  max-width: 100%;
 }
